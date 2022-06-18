@@ -7,7 +7,7 @@ export default function PopularTourItem({ tour }) {
         <div
             className="mainpage-popular__tour popular-tour"
             onClick={() => {
-                navigate('/tours/' + tour.id);
+                navigate('/travel-website/tours/' + tour.id);
             }}
         >
             <div className="popular-tour__image-container">

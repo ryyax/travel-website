@@ -11,16 +11,16 @@ function App() {
             <BrowserRouter>
                 <div className="page-links">
                     <div className="container page-links__container">
-                        <NavLink to={''} className="page-links__link">
+                        <NavLink to={'/travel-website/'} className="page-links__link">
                             Home
                         </NavLink>
-                        <NavLink to={'/tours'} className="page-links__link">
+                        <NavLink to={'/travel-website/tours'} className="page-links__link">
                             Tours
                         </NavLink>
-                        <NavLink to={'/guides'} className="page-links__link">
+                        <NavLink to={'/travel-website/guides'} className="page-links__link">
                             Our Guides
                         </NavLink>
-                        <NavLink to={'/book'} className="page-links__link">
+                        <NavLink to={'/travel-website/book'} className="page-links__link">
                             Book A Trip
                         </NavLink>
                     </div>

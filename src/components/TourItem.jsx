@@ -14,7 +14,7 @@ export default function TourItem({ tour }) {
                 <h2
                     className="tour-item__title"
                     onClick={() => {
-                        navigate('/tours/' + tour.id);
+                        navigate('/travel-website/tours/' + tour.id);
                     }}
                 >
                     {tour.title}
