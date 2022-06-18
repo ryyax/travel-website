@@ -26,9 +26,9 @@ function App() {
                     </div>
                 </div>
                 <Routes>
-                    <Route path="" element={<MainPage />} />
-                    <Route path="/tours" element={<ToursPage />} />
-                    <Route path="/tours/:id" element={<TourItemPage />} />
+                    <Route path="/travel-website/" element={<MainPage />} />
+                    <Route path="/travel-website/tours" element={<ToursPage />} />
+                    <Route path="/travel-website/tours/:id" element={<TourItemPage />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
