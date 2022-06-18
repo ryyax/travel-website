@@ -1,1 +1,1 @@
-export const mainURL = '/';
+export const mainURL = '/travel-website/';
