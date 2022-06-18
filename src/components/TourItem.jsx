@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { mainURL } from '../constants/constants';
 
 export default function TourItem({ tour }) {
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ export default function TourItem({ tour }) {
                 <h2
                     className="tour-item__title"
                     onClick={() => {
-                        navigate('/travel-website/tours/' + tour.id);
+                        navigate(mainURL + 'tours/' + tour.id);
                     }}
                 >
                     {tour.title}

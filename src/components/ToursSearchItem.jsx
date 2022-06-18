@@ -5,9 +5,9 @@ import { useState } from 'react';
 export default function ToursSearchItem({ onSearch }) {
     const [value, setValue] = useState('');
 
-    // useEffect(() => {
-    //     onSearch(value.toLowerCase());
-    // }, [value]);
+    useEffect(() => {
+        onSearch(value.toLowerCase());
+    }, [value]);
 
     function changeHandle(event) {
         setValue(event.target.value);

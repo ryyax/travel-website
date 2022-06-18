@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { mainURL } from '../constants/constants';
 
 export default function PopularTourItem({ tour }) {
     const navigate = useNavigate();
@@ -7,7 +8,7 @@ export default function PopularTourItem({ tour }) {
         <div
             className="mainpage-popular__tour popular-tour"
             onClick={() => {
-                navigate('/travel-website/tours/' + tour.id);
+                navigate(mainURL + 'tours/' + tour.id);
             }}
         >
             <div className="popular-tour__image-container">
