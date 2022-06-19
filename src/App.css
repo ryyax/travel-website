@@ -360,6 +360,10 @@ input[type='search'].dark::-webkit-search-cancel-button {
     background-color: #2d80a7;
     cursor: pointer;
 }
+.tourpage__description {
+    max-width: 45%;
+    line-height: 2em;
+}
 
 /* Guide Item */
 .guidespage__container {

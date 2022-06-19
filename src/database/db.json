@@ -5,84 +5,96 @@
             "title": "Подорож до Одеси",
             "location": "Одеса",
             "imageURL": "https://f.discover.ua/user_trip/417/600x420-UWywA.jpg",
-            "sights": "10"
+            "sights": "10",
+            "about": ""
         },
         {
             "id": 2,
             "title": "По Одеським підземеллям",
             "location": "Одеса",
             "imageURL": "https://f.discover.ua/user_trip/631/600x420--2v3p.jpg",
-            "sights": "3"
+            "sights": "3",
+            "about": ""
         },
         {
             "id": 3,
             "title": "Історичне Запоріжжя",
             "location": "Запоріжжя",
             "imageURL": "https://f.discover.ua/user_trip/704/600x420-aJ1uO.jpg",
-            "sights": "5"
+            "sights": "5",
+            "about": ""
         },
         {
             "id": 4,
             "title": "Миронівка хліборобна",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/1696/600x420-LpAtQ.jpg",
-            "sights": "2"
+            "sights": "2",
+            "about": ""
         },
         {
             "id": 5,
             "title": "Славутич",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/1692/600x420-cH_o7.jpg",
-            "sights": "1"
+            "sights": "1",
+            "about": ""
         },
         {
             "id": 6,
             "title": "Секретний Київ",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/854/600x420-W0qaM.jpg",
-            "sights": "4"
+            "sights": "4",
+            "about": ""
         },
         {
             "id": 7,
             "title": "Археологічні пам'ятки Миколаєва",
             "location": "Миколаїв",
             "imageURL": "https://f.discover.ua/user_trip/1596/600x420-VP2eD.jpeg",
-            "sights": "8"
+            "sights": "8",
+            "about": ""
         },
         {
             "id": 8,
             "title": "Віват",
             "location": "Закарпаття",
             "imageURL": "https://f.discover.ua/user_trip/1742/600x420-yc2th.jpg",
-            "sights": "10"
+            "sights": "10",
+            "about": ""
         },
         {
             "id": 9,
             "title": "Обухів",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/1691/600x420-TMeyL.jpg",
-            "sights": "4"
+            "sights": "4",
+            "about": ""
         },
         {
             "id": 10,
             "title": "Іскоростень",
             "location": "Житомир",
             "imageURL": "https://f.discover.ua/user_trip/1536/600x420-PTXAO.jpg",
-            "sights": "7"
+            "sights": "7",
+            "about": ""
         },
         {
             "id": 11,
             "title": "Романтичний Богуслав",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/1690/600x420-7SEz5.jpg",
-            "sights": "1"
+            "sights": "1",
+            "about": ""
         },
         {
             "id": 12,
             "title": "Мандруй Поділлям",
             "location": "Київ",
             "imageURL": "https://f.discover.ua/user_trip/1743/600x420-sJama.jpg",
-            "sights": "7"
+            "sights": "7",
+            "about": ""
         }
     ],
     "guides": [

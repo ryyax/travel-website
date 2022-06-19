@@ -27,9 +27,7 @@ export default function TourItemPage() {
             <div className="tourpage__sights">
                 Ви зможете відвідати до <span>{tour.sights}</span> цікавих місць!
             </div>
-            <div className="tourpage__book-container">
-                <button className="tourpage__book-button">Забронювати подорож!</button>
-            </div>
+            <div className="tourpage__description">{tour.about}</div>
             <div className="tourpage__images-container">
                 <div className="tourpage__image-container">
                     <img src={tour.imageURL} alt="" className="tourpage__image bgimage" />
