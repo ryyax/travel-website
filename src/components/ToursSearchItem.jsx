@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-export default function ToursSearchItem({ onSearch }) {
+export default function ToursSearchItem({ onSearch, placeholder }) {
     const [value, setValue] = useState('');
 
     useEffect(() => {
@@ -17,7 +17,7 @@ export default function ToursSearchItem({ onSearch }) {
         <input
             type="search"
             className="light tours__search-item"
-            placeholder="Шукайте за назвою міста, або подорожі."
+            placeholder={placeholder}
             value={value}
             onChange={changeHandle}
         />

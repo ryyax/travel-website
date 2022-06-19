@@ -361,6 +361,48 @@ input[type='search'].dark::-webkit-search-cancel-button {
     cursor: pointer;
 }
 
+/* Guide Item */
+.guidespage__container {
+    align-items: center;
+}
+.guidespage__guides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.guide-item {
+    flex: 0 0 40%;
+    margin: 25px 45px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 25px;
+}
+.guide-item__rating {
+    text-align: right;
+}
+.guide-item__city {
+    margin: 15px 0;
+    font-size: 1.3em;
+}
+.guide-item__about div {
+    color: #2d80a7;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* About Us */
+.aboutuspage__container {
+    align-items: center;
+}
+.aboutuspage__title {
+    margin: 45px 0;
+}
+.aboutuspage__text {
+    width: 70%;
+    line-height: 2em;
+}
+
 /* Footer */
 .footer {
     width: 100%;

@@ -27,9 +27,9 @@ export default function ToursPage() {
         <div className="tourspage">
             <div className="container tourspage__container">
                 <h2 className="tourspage__title">Обирайте подорож і починайте власну пригоду прямо зараз!</h2>
-                <ToursSearchItem onSearch={searchHandler} />
+                <ToursSearchItem onSearch={searchHandler} placeholder={'Шукайте за назвою міста, або подорожі.'} />
                 <div className="tourspage__tours">
-                    {searchResult.query != ''
+                    {searchResult.query !== ''
                         ? searchResult.tours.map((tour) => {
                               return <TourItem key={tour.id} tour={tour} />;
                           })

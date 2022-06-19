@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import ToursPage from './components/ToursPage';
 import TourItemPage from './components/TourItemPage';
 import { mainURL } from './constants/constants';
+import GuidesPage from './components/GuidesPage';
+import AboutUsPage from './components/AboutUsPage';
 
 function App() {
     return (
@@ -13,16 +15,16 @@ function App() {
                 <div className="page-links">
                     <div className="container page-links__container">
                         <NavLink to={mainURL} className="page-links__link">
-                            Home
+                            Головна
                         </NavLink>
                         <NavLink to={mainURL + 'tours'} className="page-links__link">
-                            Tours
+                            Тури
                         </NavLink>
                         <NavLink to={mainURL + 'guides'} className="page-links__link">
-                            Our Guides
+                            Гіди
                         </NavLink>
-                        <NavLink to={mainURL + 'book'} className="page-links__link">
-                            Book A Trip
+                        <NavLink to={mainURL + 'about'} className="page-links__link">
+                            Про нас
                         </NavLink>
                     </div>
                 </div>
@@ -30,6 +32,8 @@ function App() {
                     <Route path={mainURL} element={<MainPage />} />
                     <Route path={mainURL + 'tours'} element={<ToursPage />} />
                     <Route path={mainURL + 'tours/:id'} element={<TourItemPage />} />
+                    <Route path={mainURL + 'guides'} element={<GuidesPage />} />
+                    <Route path={mainURL + 'about'} element={<AboutUsPage />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
